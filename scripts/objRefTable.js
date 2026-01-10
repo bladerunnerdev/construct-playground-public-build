@@ -3,6 +3,7 @@ self.C3_GetObjectRefTable = function () {
 	return [
 		C3.Plugins.Sprite,
 		C3.Behaviors.Platform,
+		C3.Behaviors.bound,
 		C3.Behaviors.solid,
 		C3.Plugins.Keyboard,
 		C3.Plugins.Keyboard.Cnds.OnKey,
@@ -13,6 +14,7 @@ self.C3_GetObjectRefTable = function () {
 };
 self.C3_JsPropNameTable = [
 	{Platform: 0},
+	{BoundToLayout: 0},
 	{tanks_tankGreen1: 0},
 	{ground_grass_broken: 0},
 	{ground_grass: 0},
